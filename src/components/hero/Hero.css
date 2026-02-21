@@ -1,0 +1,43 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../images/hero-back.png');
+  background-repeat: no-repeat;
+  background-position: 0 -250px;
+  background-size: 100% 2000px;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 0 50px;
+  height: 84vh;
+  gap: 30px;
+}
+
+.hero__title {
+  font-size: 50px;
+  color: #ffd400;
+}
+
+.hero__title,
+.hero__description {
+  margin: 0;
+}
+
+.hero__description {
+  font-size: 22px;
+  color: #cccccc;
+}
+
+.hero__button {
+  background-color: #1da1ff;
+  padding: 19px 35px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 11px 12px rgba(29, 161, 255, 0);
+  transition: box-shadow 0.3s linear;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.hero__button:hover {
+    box-shadow: 0px 0px 11px 12px rgba(29, 161, 255, 0.5);
+}

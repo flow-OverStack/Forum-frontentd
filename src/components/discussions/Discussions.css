@@ -1,0 +1,44 @@
+.discussions {
+  padding: 44px 0;
+  background-color: #0f1629;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.discussions__title {
+  margin: 0;
+  color: #ffd400;
+  font-size: 36px;
+}
+
+.discussions__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 700px;
+  width: 100%;
+}
+
+.discussions__card {
+  padding: 25px 0;
+  border: 1px solid #1da1ff;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.discussions__card--middle {
+  border: 1px solid #ffd400;
+}
+
+.discussions__card-description {
+  font-size: 18px;
+  color: #ffffff;
+  margin: 0;
+}

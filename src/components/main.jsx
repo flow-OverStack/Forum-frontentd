@@ -1,11 +1,12 @@
-import React from "react";
+import FirstPage from "./FirstPage";
+import "./Main.css";
 
 const Main = () => {
-    return(
-        <div>
-            <h1>HI!!!</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <FirstPage />
+    </div>
+  );
+};
 
-export default Main
+export default Main;

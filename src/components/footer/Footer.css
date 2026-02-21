@@ -1,0 +1,12 @@
+.footer {
+  background-color: #0B0F1A;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 120px;
+}
+
+.footer__left-text,
+.footer__right-text {
+  color: #ffffff;
+  font-size: 18px;
+}

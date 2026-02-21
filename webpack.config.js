@@ -13,6 +13,7 @@ module.exports = {
         path: path.resolve(__dirname, "./dist"),
         filename: production ? '[name].[contenthash].js' : '[name].js',
     },
+
     module: {
         rules: [
             {
@@ -20,6 +21,15 @@ module.exports = {
                 exclude: /node_modules/,
                 type: "javascript/auto",
                 use: ["babel-loader"],
+            },
+            {
+                test: /\.tsx?$/,
+                use: "ts-loader",
+                exclude: /node_modules/,
+            },
+            {
+                test: /\.css$/i,
+                use: ["style-loader", "css-loader"],
             },
             {
                 test: /\.s(a|c)ss$/,
@@ -45,7 +55,7 @@ module.exports = {
         ],
     },
     resolve: {
-        extensions: ["*", ".js", ".jsx", ".scss"],
+        extensions: ["*", ".js", ".ts", ".tsx", ".jsx", ".scss"],
     },
     plugins: [
         new CleanWebpackPlugin(),
