@@ -1,12 +1,22 @@
 .footer {
-  background-color: #0B0F1A;
+  background-color: #0b0f1a;
   display: flex;
   justify-content: space-between;
   padding: 20px 120px;
+
+  @media (max-width: 767px) {
+    padding: 20px 40px;
+  }
 }
 
 .footer__left-text,
 .footer__right-text {
   color: #ffffff;
   font-size: 18px;
+  margin: 0;
+
+  @media (max-width: 767px) {
+    font-size: 15px;
+    text-align: center;
+  }
 }

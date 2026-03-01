@@ -1,0 +1,9 @@
+.container-topics {
+  display: grid;
+  gap: 30px;
+  padding: 160px 0 30px;
+  background-color: #0b1220;
+  justify-content: center;
+  grid-template-columns: 300px 932px;
+  grid-template-rows: 100px 1fr;
+}

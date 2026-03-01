@@ -1,0 +1,95 @@
+.aside {
+  background-color: #111827;
+  border: 1px solid #1e293b;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 260px;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  position: sticky;
+  bottom: 0;
+}
+
+.aside__button {
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 16px;
+  width: 100%;
+  transition: background-color 0.3s linear;
+}
+
+.aside__button:hover {
+  background-color: #1849b3;
+}
+
+.aside__themes,
+.aside__sort,
+.aside__tags {
+  background-color: #0f1a2e;
+  border: 1px solid #1e293b;
+  padding: 16px 20px;
+}
+
+.aside__tags {
+  padding: 16px 20px 20px 20px;
+}
+
+.aside__themes-name,
+.aside__sort-name,
+.aside__tags-name {
+  color: #e2e8f0;
+  font-size: 14px;
+}
+
+.aside__themes-list,
+.aside__sort-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.aside__tags-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.aside__themes-button,
+.aside__sort-button {
+  color: #94a3b8;
+  font-size: 14px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  transition: color 0.3s linear;
+}
+
+.aside__themes-button:hover,
+.aside__sort-button:hover {
+    color: #FACC15;
+}
+
+.aside__tags-button {
+  background-color: #1e293b;
+  color: #94a3b8;
+  font-size: 12px;
+  padding: 7px 13px;
+  border: none;
+  border-radius: 8px;
+  transition: color 0.3s linear, background-color 0.3s linear;
+}
+
+.aside__tags-button:hover {
+    background-color: #d1ab11;
+    color: #ffffff;
+}
